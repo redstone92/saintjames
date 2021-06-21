@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+#gnb {
+  border-bottom: 3px solid #012b5d;
+}
+
+.about {
+  width: 100%;
+  padding: 40px 0;
+  margin-top: 60px;
+  text-align: center;
+  border-bottom: 1px solid #012b5d;
+}
+
+.about h1 {
+  color: #012b5d;
+  font-weight: bold;
+}
+
+section {
+  width: 100%;
+  margin-top: 10px;
+  padding: 80px 0;
+}
+
+/* section1 */
+#section1 {
+  background: #09243f;
+}
+
+.about_top {
+  display: flex;
+}
+.main_about img {
+  flex: 30%;
+  margin-left: 60px;
+}
+
+.textarea {
+  flex: 70%;
+  display: inline-block;
+  margin-left: 60px;
+  padding: 0 45px;
+}
+
+.textarea h3 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 40px;
+  color: white;
+}
+
+.textarea p {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+#section1 img.mainimg2 {
+  margin-top: 40px;
+}
+
+/* section2 */
+#section2 {
+  margin-top: 0;
+  background: #eff2f6;
+}
+
+.row {
+  display: flex;
+}
+
+.rLeft {
+  flex: 25%;
+  text-align: center;
+  border-right: 1px solid #a5b0bb;
+}
+
+/* circle common style */
+.circle {
+  width: 228px;
+  height: 228px;
+  border-radius: 100%;
+  background: #09243f;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.circle.second {
+  background: white;
+  border: 1px solid #09243f;
+  color: #09243f;
+}
+
+.description {
+  flex: 75%;
+  padding: 0 35px;
+}
+
+.des {
+  padding: 40px 0;
+}
+
+.description p {
+  font-size: 15px;
+  color: #012b5d;
+  line-height: 28px;
+  margin-top: 12px;
+}
+
+.pGroup {
+  display: flex;
+}
+
+.des.mid {
+  flex: 70%;
+  margin-right: 60px;
+}
+
+
+.des.mid img {
+  width: 30%;
+}
+
+.desbtm {
+  margin-top: 60px;
+}
+
+/* section3 */
+#section3 {
+  margin-top: 0;
+  padding-bottom: 0;
+  background: white;
+}
+
+#skills {
+  display: flex;
+  padding: 10px 0 60px;
+  border-top: 1px solid #b0b9c1;
+  border-bottom: 1px solid #b0b9c1;
+}
+
+.s3_ctn {
+  flex: 33.333%;
+  padding: 0 20px;
+  border-right: 1px solid #b0b9c1;
+}
+.s3_ctn:last-child {
+  border-right: none;
+}
+.toparea {
+  position: relative;
+}
+
+.toparea > .circle {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -130px;
+}
+
+.btmarea {
+  text-align: center;
+  margin-top: 130px;
+}
+
+.btmarea p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #09243f;
+  margin-top: 12px;
+  font-weight: bold;
+}
